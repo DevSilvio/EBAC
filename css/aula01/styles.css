@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+}
+.botaoEnviar{
+    background-color: green;
+}
+.botaoApagar{
+    background-color: red;
+}

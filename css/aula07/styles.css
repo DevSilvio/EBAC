@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f6f6f6;
+}
+
+body > header{
+    background-color: #cc0000;
+    padding: 16px 0;
+    color: #f6f6f6;
+}
+
+header .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header li{
+    display: inline;
+    margin: 0 8px;
+}
+
+header li a{
+    text-decoration: none;
+    color: #f7f9fb;
+}
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article{
+    width: 30%;
+}
+
+article img{
+    width: 180px;
+}
+
+section h2, .artigos article{
+    padding: 16px 0;
+}
+
+.artigos article h3{
+    margin: 8px 0;
+}
+
+.artigos article a{
+    background-color: #ffb32b;
+    color: #000;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: blue;
+}
+#interior h2{
+    color: red;
+}
+.data{
+    color: blueviolet;
+}
+header h1{
+    height: 37px;
+    padding: none;
+    border: solid red;
+    margin: 0;
+}

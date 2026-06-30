@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Atividade CSS</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Game shop</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobreALoja">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#contatos">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobreALoja">
+        <div class="container">
+            <img src="midias/loja.jpg" alt="faixada da loja">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum culpa consequatur quibusdam quo, id, illo cumque provident mollitia voluptatibus, assumenda inventore accusantium pariatur. Dolor dicta quasi at corrupti sapiente eum!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis fuga commodi explicabo maxime cum inventore officiis quos qui itaque. Veniam earum sit tempora totam dolorem assumenda perspiciatis sint pariatur!
+                </p>
+                <ul class="marcas">
+                    <li><img src="midias/nintendo.png" alt="nintendo"></li>
+                    <li><img src="midias/xbox.png" alt="xbox"></li>
+                    <li><img src="midias/playstation.png" alt="playstation"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="contatos" id="contatos">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contatosConfig">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form action="">
+                        <input type="text" placeholder="seu nome" required>
+                        <input type="email" placeholder="seu e-mail" required>
+                        <input type="tel" placeholder="seu telefone (opcional)">
+                        <textarea name="" id="" placeholder="sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="redesSociais">
+                        <li>
+                            <a href="#" title="sega-nos no Instagram">
+                                <img src="midias/instagram.png" alt="logo Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="sega-nos no Facebook">
+                                <img src="midias/facebook.png" alt="logo Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="visite nosso canal no YouTube">
+                                <img src="midias/youtube.png" alt="logo YouTube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua JavaScript nº 123, Vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game Shop - Todos os direitos reservados - 2026
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

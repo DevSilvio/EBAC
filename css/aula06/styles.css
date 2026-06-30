@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header li{
+    display: inline;
+}
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article{
+    width: 30%;
+    position: relative;
+}
+
+article img{
+    width: 180px;
+}
+
+#midiaTeste{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#midiaTeste2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,15 @@
+h1 {
+    color: green;
+}
+h2 {
+    color: blue;
+}
+#interior h2{
+    color: red;
+}
+.data{
+    color: blueviolet;
+}
+*{
+    background-color: #ccc;
+}
