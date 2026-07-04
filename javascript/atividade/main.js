@@ -19,7 +19,6 @@ formulario.addEventListener('submit', function(e){
 function adicionarLinhas(){
     const atividade = document.getElementById('atividade');
     const nota = document.getElementById('nota');
-
     
     if(atividades.includes(atividade.value)){
         alert(`A atividade: "${atividade.value}" já foi anotada`);
