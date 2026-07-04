@@ -30,7 +30,7 @@ function adicionarLinhas(){
         let linha = '<tr>'
         linha += `<td>${atividade.value}</td>`
         linha += `<td>${nota.value}</td>`
-        linha += `<td>${nota.value > 7 ? aprovado : reprovado}</td>`
+        linha += `<td>${nota.value > notaMedia ? aprovado : reprovado}</td>`
         linha += '</tr>'
     
         linhas += linha
