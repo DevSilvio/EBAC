@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #192a56;
+    color: #fff;
+    padding-top: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header > .container,
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #5874c2;
+    padding: 16px 0;
+    display: none;
+}
+
+ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    width: 32px;
+    cursor:pointer;
+}
+
+.menu span{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.flex{
+    display: flex;
+}
+
+#sobre img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.veiculos{
+    flex-wrap: wrap;
+}
+
+.veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.veiculos li img{
+    max-width: 100%;
+}
+
+.veiculos li h3{
+    margin: 16px 0;
+}
+
+.imgCentral {
+    margin: 0 5%;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.preco{
+    margin: 16px 0;
+    display: block;
+}
+
+.preco del{
+    color: #ccc;
+    font-size: 14px;
+}
+
+.contato{
+    margin-bottom: 16px;
+}
+
+.contato label{
+    font-weight: bold;
+    display: block;
+}
+
+.contato input,
+.contato textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.contato textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
+}
