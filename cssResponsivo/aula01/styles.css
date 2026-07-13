@@ -1,0 +1,9 @@
+div {
+    background-color: yellow;
+    height: 20vh; /*vh = viewport height --> refere ao tamanho maximo da tela*/
+    width: 20vw;  /*vw = viewport widht --> refere ao tamanho maximo da tela*/
+    margin: 16px;
+}
+/*O viewport é definido no inicio do documento HTML
+    <meta name="viewport" content="width=device-width, initial-scale=0 maximum-scale=0.8 user-scalable=yes">
+*/

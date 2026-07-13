@@ -1,0 +1,8 @@
+div{
+    background-image: url("https://cdn.pixabay.com/photo/2026/04/15/07/26/07-26-17-618_960_720.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: red;
+}
